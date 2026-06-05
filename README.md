@@ -31,7 +31,7 @@ superior to — centralised quantum computing architectures.
 
 Two paired artifacts in `tools/` make the framework droppable into any AI agent stack:
 
-- [`DIE-system-prompt-v1.md`](tools/DIE-system-prompt-v1.md) — the **system message**. Installs the DIE evaluation frame (Core Axiom, D1–D5 protocol, Chapter 1–6 map, SS1/SS2 snapshot protocol) as standing context. Always-latest on `main`; current version: v1.1 (commit `f1faa12`).
+- [`DIE-system-prompt-v1.md`](tools/DIE-system-prompt-v1.md) — the **system message**. Installs the DIE evaluation frame (Core Axiom, Architecture Note, Tone Bounds, D1–D5 protocol, Chapter 1–6 map, SS1/SS2 snapshot protocol) as standing context. Always-latest on `main`; current version: v1.2 (commit `a24e383`).
 - [`DIE-user-prompt-template-v1.md`](tools/DIE-user-prompt-template-v1.md) — the **user message** template. An eight-block reusable structure for applying the protocol to any new source (podcast, paper, article, talk, document). Current version: v1.0 (commit `41c4a4e`).
 
 Worked example: see [the AlphaFold post](https://thinkmasters.com/alphafold-through-the-die-lens-and-what-the-droppable-system-prompt-actually-installs) — DIE-framed analysis of Veritasium's AlphaFold episode (27 May 2026) produced by running this template against the v1.1 system prompt.
