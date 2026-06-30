@@ -2,7 +2,7 @@
 
 ## Research Strategy Document — Dimensional Intelligence Expansion (DIE)
 
-### Version 1.4 | May 2026
+### Version 1.5 | June 2026
 
 ### Controlled by: r4all (Principal Investigator)
 
@@ -55,46 +55,60 @@ This axiom is the spine of the thesis. It must be formalised, not abandoned.
 
 ---
 
-## 2. THE PREPRINT — CURRENT STATE (May 2026)
+## 2. THE PREPRINT — CURRENT STATE (June 2026)
 
 **Title:** Dimensional Intelligence Expansion: Self-Replicating Peer-to-Peer Agent Meshes as a Tetration-Class Alternative to Centralised Quantum Scaling
 
 **arXiv target:** cs.AI — cross-listed cs.MA / cs.CR / nlin.AO
 
-**Status:** FINAL v3 — stress-tested, reference-verified, ready for arXiv submission.
+**Status:** FINAL v4 — stress-tested, reference-verified; published on Zenodo (DOI 10.5281/zenodo.20407711). arXiv endorsement (cs.AI) in progress.
 
 ### Preprint Section Map
 
-| Section | Title | Status |
+*Synced to FINAL v4. Headings verified off DIE_Preprint_FINAL_v4.docx; never cite a §-locator without confirming against the docx. The ⟵ rows were stale against v3 and are corrected here.*
+
+| § (v4) | Heading as it reads in FINAL v4 | Notes |
 | --- | --- | --- |
-| 1 | Introduction — The West Lake Plum Tree | Complete |
-| 2 | Dimensional Perception as Epistemological Framework | Complete |
-| 2.2 | Core Axiom and Human Serialisation — D_eff formal definition | Complete |
-| 2.4 | Bidirectional Causation — Cohen & Stewart integration | Complete |
-| 3 | Blockchain-Native Coordination: VTP, Not Superposition Equivalence | Complete |
-| 3.1 | VTP (Verifiable Temporal Provenance) — formal concept | Complete |
-| 3.2 | The Financial Model Analogy — Pacioli anchor | Complete |
-| 3.3 | ERC-8004 as Coordination Primitive | Complete |
-| 3.4 | Design Principles P1–P5 (forward-looking Phase 2 commitments) | Complete |
-| 4 | The Quantum Extension: Toward Infinite-Dimensional Agency | Complete |
-| 4.3 | Entanglement as Non-Local Coordination | Complete |
-| 5 | Growth Dynamics: Tetration-Class Scaling | Complete |
-| 6 | agenti2: The System as Methodology — memory table, Hassabis convergence | Complete |
-| 7 | Empirical Validation Protocol | Complete |
-| 7.2 | Four Conditions (C1–C4) — six failure modes, Summer Yue field evidence | Complete |
-| 7.3 | Random Forest — Label Independence Protocol (three-stage) | Complete |
-| 7.4 | C4 Novelty Operationalisation Protocol — SHA-256 cryptographic commitment | Complete |
-| 7.5 | Fractal Probability — Phase 2 Bridge | Complete |
-| 7.6 | Data Quality, Log Integrity, Architectural Failure Mode Mitigation | Complete |
-| 8 | The Alignment Risk, Reframed: Dimensional Blindness | Complete |
-| 8.3 | Implications for Alignment — program.md + ERC-8004 grounded | Complete |
-| 9 | Proof of Values — AlphaFold playbook as Ch6 fitness function template | Complete |
-| 10 | Coherence Equivalence Threshold | Complete |
-| 11 | Implications, Open Problems, Phase 2 Conjecture | Complete |
-| 12 | Relation to Existing Work | Complete |
-| 12.1 | Adjacent Systems: BlockA2A, BAID, ClawGang, Merkle Automaton | Complete |
-| 12.2 | Positioning Against LLM-Agent Orchestration Frameworks | Complete |
-| 13 | Conclusion | Complete |
+| 1 | Introduction: The Serialisation Problem | West Lake plum tree opening |
+| 2 | The Dimensional Perception Framework | |
+| 2.1 | Epistemological Grounding | |
+| 2.2 | Core Axiom and Human Serialisation | D_eff formal definition |
+| 2.3 | AI Agents as Dimensional Upgrade | |
+| 2.4 | Static Quality as the First Invariant | Cohen & Stewart integration |
+| 3 | Blockchain-Native Coordination: Verifiable Temporal Provenance, Not Superposition Equivalence | |
+| 3.1 | Reframing the Coherence Question | ⟵ was "VTP — formal concept" (v3) |
+| 3.2 | The Financial Model Analogy | Pacioli anchor |
+| 3.3 | ERC-8004 as Coordination Primitive | |
+| 3.4 | Design Principles for Phase 2 Implementation (Forward-Looking) | P1–P5 |
+| 4 | The Quantum Extension: Toward Infinite-Dimensional Agency | |
+| 4.1 | Hilbert Space as the Natural Substrate | |
+| 4.2 | Current State of Quantum Hardware | |
+| 4.3 | Entanglement as Non-Local Coordination | |
+| 5 | Growth Dynamics: Tetration-Class Scaling | |
+| 5.1 | From Linear to Exponential to Tetration | |
+| 5.2 | The Energy Constraint as the Real Ceiling | energy-governance thesis |
+| 6 | agenti2: The System as Methodology | memory table; Hassabis convergence |
+| 7 | Empirical Validation Protocol | |
+| 7.1 | Epistemological Position | |
+| 7.2 | Four Conditions | C1–C4; six failure modes; Summer Yue field evidence |
+| 7.3 | Random Forest Classification Framework | ⟵ was "Label Independence Protocol" (v3); that Protocol is a block INSIDE 7.3 |
+| 7.4 | Intelligence Emergence — Operational Definition | ⟵ was "C4 Novelty Operationalisation Protocol" (v3); that Protocol is a block INSIDE 7.4 |
+| 7.5 | Fractal Probability — The Phase 2 Bridge | |
+| 7.6 | Data Quality, Log Integrity, and Architectural Failure Mode Mitigation | FM→VM mitigation mapping |
+| 8 | The Alignment Risk, Reframed: Dimensional Blindness | |
+| 8.1 | The Standard Frame and Its Limitation | |
+| 8.2 | The Dimensional Blindness Risk | cross-section / sphere |
+| 8.3 | Implications for Alignment Research | program.md + ERC-8004 on the reduction function |
+| 9 | Proof of Values: An Attestation Framework | ⟵ was "AlphaFold playbook as Ch6 template" (v3) |
+| 9.1 | Identity Is the Wrong Primitive | contains the AlphaFold three-component playbook paragraph (Hassabis [2026]; Jumper et al. [2021]) |
+| 9.2 | Values as the Correct Primitive | |
+| 9.3 | On-Chain Attestation | |
+| 10 | The Coherence Equivalence Threshold | |
+| 11 | Implications, Open Problems, and Phase 2 Conjecture | arena design; Kardashev; unaccountable-centralisation open problem |
+| 12 | Relation to Existing Work | |
+| 12.1 | Positioning Against Blockchain/Identity/Provenance Systems | ⟵ was "Adjacent Systems: BlockA2A, BAID, ClawGang, Merkle Automaton" (v3) |
+| 12.2 | Positioning Against LLM-Agent Orchestration Frameworks | |
+| 13 | Conclusion | |
 
 ### The Four Validation Conditions
 
@@ -115,9 +129,21 @@ C1 and C2 are Phase 1 primary claims. C3 and C4 build on C1/C2. Null results acr
 
 *These conditions are non-negotiable. Any implementation that violates them is not the methodology.*
 
-### Condition M1 — Episodic Snapshot Anchoring via Verifiable Temporal Provenance (HARD)
+### 3.0 Namespace rule (canonical)
 
-Every episodic snapshot (SS1, SS2...SSn) must be anchored on Base mainnet at the moment of creation as a **Verifiable Temporal Provenance (VTP)** record. VTP is the capacity to reconstruct the complete relational state of the system at any point in time, in a manner that is trustless, immutable, and auditable without central authority. An episodic record without a blockchain timestamp is not a valid snapshot — it is a log entry. The distinction is immutability and trustless verifiability, not storage format.
+**M-numbers name memory *layers*, never conditions.** There are exactly three, fixed:
+
+* **M1 — Procedural.** How-to knowledge / skills. Cross-snapshot; compounds SS1→SS2→SSn. The trunk.
+* **M2 — Episodic.** What-happened records. Snapshot-local; VTP-anchored; non-propagating. The leaf.
+* **M3 — Semantic.** Foundation-model world knowledge. Global, pre-deployment, not operator-controlled. The null-memory baseline.
+
+The **HARD conditions** below are *requirements on* those layers, and are referred to **by name, never by an M-number**. Values Governance is governance of the reduction function, not a memory layer, and carries **no** M-number.
+
+*Mnemonic: a layer is a noun (a kind of memory the agent has); a condition is an imperative (a rule the implementation must obey). They never share a label.*
+
+### Condition — VTP Anchoring of Episodic Snapshots (HARD) — acts on M2 (episodic)
+
+Every episodic (M2) snapshot (SS1, SS2...SSn) must be anchored on Base mainnet at the moment of creation as a **Verifiable Temporal Provenance (VTP)** record. VTP is the capacity to reconstruct the complete relational state of the system at any point in time, in a manner that is trustless, immutable, and auditable without central authority. An episodic record without a blockchain timestamp is not a valid snapshot — it is a log entry. The distinction is immutability and trustless verifiability, not storage format.
 
 **Why blockchain and not a database:**
 
@@ -127,36 +153,40 @@ Every episodic snapshot (SS1, SS2...SSn) must be anchored on Base mainnet at the
 
 A conventional database record is mutable, trust-dependent, and operator-controlled. None of these properties are adequate for academic validation of C1/C2, where a blind evaluator panel must independently confirm when a snapshot was created and what it contained.
 
-**C4 extension to M1:** At each SS1/SS2 snapshot boundary, the full tokenised context window of every active agent is cryptographically committed — a SHA-256 hash of the serialised context recorded on-chain as an AgentAction event (session_id, event_type, timestamp, data_hash) before any inter-agent synthesis occurs. This commitment is the leakage control for C4: it locks each agent's information state at the moment of snapshot, independent of later processing. Only the hash travels on-chain; bulk artefacts remain off-chain. Per-entry cost: fractions of a cent.
+**C4 extension (VTP Anchoring):** At each SS1/SS2 snapshot boundary, the full tokenised context window of every active agent is cryptographically committed — a SHA-256 hash of the serialised context recorded on-chain as an AgentAction event (session_id, event_type, timestamp, data_hash) before any inter-agent synthesis occurs. This commitment is the leakage control for C4: it locks each agent's information state at the moment of snapshot, independent of later processing. Only the hash travels on-chain; bulk artefacts remain off-chain. Per-entry cost: fractions of a cent.
 
-### Condition M2 — Memory Type Separation (HARD)
+### Condition — Memory-Type Separation (HARD) — separates M1 (procedural) and M2 (episodic)
 
 | Memory Type | Scope | Temporal Behaviour | Anchoring |
 | --- | --- | --- | --- |
-| **Episodic** | Snapshot-local | What happened at SSn — does not propagate forward | Immutable blockchain timestamp per snapshot |
-| **Procedural** | Cross-snapshot | How-to knowledge; compounds SS1→SS2→SSn | Relationship graph maintained across snapshot sequence |
+| **Episodic (M2)** | Snapshot-local | What happened at SSn — does not propagate forward | Immutable blockchain timestamp per snapshot |
+| **Procedural (M1)** | Cross-snapshot | How-to knowledge; compounds SS1→SS2→SSn | Relationship graph maintained across snapshot sequence |
 
 Procedural memory is the trunk of the tree. It does not reset at each snapshot — it accumulates forward. Episodic memory is the leaf at a given node. This distinction is the mechanical basis of the trunk-thickening claim in C1.
 
-**M2 Retrieval Standard — production-grade C2 (HARD):**
-Never load the full corpus into context. Embed all entries as vectors. Retrieve on semantic relevance at query time. The corpus grows arbitrarily; working memory stays bounded. This is the operative principle for controlled forgetting. Loading is the failure mode. Retrieval is the protocol. Any implementation that loads the full corpus into a context window is not complying with M2 — it is replicating the $75M amnesia architecture, not correcting it.
+**Retrieval Standard — production-grade C2 (HARD):**
+Never load the full corpus into context. Embed all entries as vectors. Retrieve on semantic relevance at query time. The corpus grows arbitrarily; working memory stays bounded. This is the operative principle for controlled forgetting. Loading is the failure mode. Retrieval is the protocol. Any implementation that loads the full corpus into a context window is not complying with the Memory-Type Separation condition — it is replicating the $75M amnesia architecture, not correcting it.
 
 **Ablation protocol:** Procedural-only ablation (preserve episodic, wipe procedural) and episodic-only ablation (preserve procedural, wipe episodic) are run as auxiliary conditions. The lattice claim predicts qualitatively different failure modes: procedural-only ablation forces re-derivation of established competence at each boundary; episodic-only ablation degrades temporally-bound retrieval while preserving accumulated capability. Indistinguishability is the publishable null result.
 
-### Condition M3 — Semantic Pre-Training Layer (HARD)
+### Condition — Semantic Baseline (HARD) — names M3 (semantic)
 
 | Memory Type | Scope | Temporal Behaviour | Source |
 | --- | --- | --- | --- |
-| **Semantic** | Global, pre-deployment | World knowledge; does not update at runtime | Foundation model pre-training |
+| **Semantic (M3)** | Global, pre-deployment | World knowledge; does not update at runtime | Foundation model pre-training |
 
 M3 is the knowledge substrate the agent arrives with before any episodic accumulation begins. It is not the mesh's contribution — it is the foundation model's. The mesh operates above M3; it does not replace it. M3 is the baseline the null-memory comparator uses. The DIE claim is about what M1 + M2 add on top of M3, not about M3 itself.
 
 **Neuroscience grounding — convergent external validation (2026-05-01):**
-Hassabis [2026], whose PhD was on hippocampal memory consolidation, independently identifies the same three-layer structure as the missing capability in current AI systems: procedural knowledge (M1 — skills encoded in how-to patterns), episodic consolidation (M2 — REM-sleep replay separating signal from noise), and semantic pre-training (M3 — world knowledge acquired before deployment). His characterisation of current AI memory as "duct tape — shove it all in the context window" is a precise field-level description of the C2 failure condition. The M1/M2/M3 conditions were derived from organisational coordination theory; Hassabis arrives at the identical architecture from cognitive neuroscience. The convergence is structural, not coincidental. This constitutes independent external validation of the memory architecture hard conditions. Recorded in Amendment Log: 2026-05-01.
+Hassabis [2026], whose PhD was on hippocampal memory consolidation, independently identifies the same three-layer structure as the missing capability in current AI systems: procedural knowledge (M1 — skills encoded in how-to patterns), episodic consolidation (M2 — REM-sleep replay separating signal from noise), and semantic pre-training (M3 — world knowledge acquired before deployment). His characterisation of current AI memory as "duct tape — shove it all in the context window" is a precise field-level description of the C2 failure condition. The M1/M2/M3 memory layers were derived from organisational coordination theory; Hassabis arrives at the identical architecture from cognitive neuroscience. The convergence is structural, not coincidental. This constitutes independent external validation of the memory architecture hard conditions. Recorded in Amendment Log: 2026-05-01.
 
-### Condition M3a — Values Governance via program.md (HARD)
+### Condition — Values Governance (program.md) (HARD) — governs the reduction function (no M-number)
 
 program.md functions as a structural constraint on the reduction function — not a record of past outputs, but a bound on the mapping from full mesh state to any individual agent's observable behaviour. Agent output drift rate must stay within program.md thresholds as the mesh grows under adversarial prompting. This is what C3 measures.
+
+### 3.1 Open question — M1 (procedural) integrity (raised 2026-06-26, KIV)
+
+M2 (episodic) carries a HARD on-chain VTP anchor (VTP Anchoring condition). M1 (procedural) currently has **no equivalent integrity condition** — its anchoring is "relationship graph maintained across the snapshot sequence," off-chain by default. Open question: is graph-continuity plus the Retrieval Standard sufficient for M1 integrity, or does the procedural trunk need its own hardening (e.g. periodic graph-state commitment, an analogue of the VTP anchor)? Deferred — this is an architecture decision, not a documentation fix. Provisional design: M1 integrity is currently *assumed, not conditioned*. Revisit post-Chapter 5; tracked against C1 (accumulation) and FM1 (memory state loss). Recorded in Amendment Log: 2026-06-26.
 
 ---
 
@@ -382,7 +412,7 @@ Five commitments governing the Phase 2 trunk/forest/ring architecture implementa
 **Sprint 1 (Complete): The Preprint**
 
 * ✅ 13-section arXiv preprint — stress-tested, reference-verified
-* ✅ FINAL v3: Label Independence Protocol, C4 Novelty Operationalisation Protocol, six failure modes, adjacent systems table, hallucination cross-validation commitment
+* ✅ FINAL v4: Label Independence Protocol, C4 Novelty Operationalisation Protocol, six failure modes, adjacent systems table, hallucination cross-validation commitment
 * ✅ Reference list verified: Aspect 1982, ERC-8004 authors/title/year, Quantinuum format, Pollan year, Wooldridge pages
 * ✅ Grey literature archived and cited: Karpathy (Wayback + Zenodo) + Huntley (Wayback)
 * ✅ Zenodo archive deposited — DOI 10.5281/zenodo.19888889
@@ -391,7 +421,7 @@ Five commitments governing the Phase 2 trunk/forest/ring architecture implementa
 
 **Sprint 2 (Active): Kumamoto Engagement**
 
-* Send preprint FINAL v3 to Kumamoto University contact upon arXiv timestamp
+* Send preprint FINAL v4 to Kumamoto University contact upon arXiv timestamp
 * Propose C1/C2 as PhD-level empirical work with Label Independence Protocol spec
 * Define C1 measurement protocol with blind evaluator panel (κ ≥ 0.70)
 * Propose ablation protocol (procedural-only vs episodic-only) as auxiliary observable
@@ -453,7 +483,10 @@ Five commitments governing the Phase 2 trunk/forest/ring architecture implementa
 | 2026-04-30 | 1.3 | Provenance track updated: BRC-20 hash recorded, Zenodo DOI added, GitHub repo live; §8 Provenance Record expanded with Zenodo and Git rows; §9 Sprint 1 updated with Zenodo, GitHub and arXiv in-progress status; §10 Priority attack placeholders filled with actual hash, Zenodo DOI and Git date; §6 Priority 1 status update added — Kumamoto contact made, positive response, endorsement process initiated | PI |
 | 2026-05-01 | 1.4a | Amendment log entry: M1/M2/M3 memory architecture externally validated by Hassabis neuroscience grounding — Corpus Entry 003, Hassabis [2026] podcast, processed 2026-05-01. Convergence is structural: M1 (procedural/skills), M2 (episodic consolidation), M3 (semantic pre-training) identified independently from hippocampal memory consolidation research. This makes the M1/M2/M3 conditions immutably timestamped as externally validated. | PI |
 | 2026-05-26 | 1.4 | Full sync with DIE Preprint FINAL v3. Changes: arXiv cross-listing corrected to cs.AI/cs.MA/cs.CR/nlin.AO; M3 hard condition added explicitly; VTP framing added to M1; M2 retrieval-over-loading standard formalised; M3a values governance clarified; Label Independence Protocol added to Score Function; hallucination cross-validation commitment added; §5 chapter map updated — Einstein test and Invent Go added to Ch1, AlphaFold playbook added to Ch6, P1–P5 design principles added, adjacent systems register added to Ch4; §7a failure mode register added (six modes, FM1–FM6); §8 provenance updated with Karpathy Zenodo DOI; §9 Sprint 1 marked complete, Sprint 2 activated; §10 memory attack added (attack #8); preprint section map updated to FINAL v3 structure; Sprint 2 expanded with ablation protocol and κ threshold | PI |
+| 2026-06-30 | 1.5 | Full sync with DIE Preprint FINAL v4 (DOI 10.5281/zenodo.20407711). §2 preprint section map refreshed v3→v4 — five drifted row labels corrected (§3.1 Reframing the Coherence Question; §7.3 Random Forest Classification Framework; §7.4 Intelligence Emergence — Operational Definition; §9 Proof of Values: An Attestation Framework; §12.1 Positioning Against Blockchain/Identity/Provenance Systems); status bumped FINAL v3→v4. §3 memory architecture regularised under new §3.0 namespace rule: M-numbers now name memory LAYERS only (M1 procedural / M2 episodic / M3 semantic); the four HARD conditions de-numbered and named (VTP Anchoring; Memory-Type Separation + Retrieval Standard; Semantic Baseline; Values Governance); label M3a retired. §3.1 M1-integrity open question added (procedural integrity assumed-not-conditioned; tracked vs C1/FM1). Chapter footnote sweep Ch2–Ch5 (16 swaps) aligned to named conditions. §9 work queue bumped v3→v4. | PI |
 
+
+*Note (2026-06-30): the 2026-05-01 entry is labelled 1.4a though it predates the 1.4 full-sync of 2026-05-26. Entries are retained verbatim as originally recorded and dates run in ascending order. Flagged for the PI: recommend relabelling 1.4a → 1.3a so version numbers run monotonically with dates. Not applied without PI authorisation.*
 ---
 
 ## 12. THE NORTH STAR
@@ -472,5 +505,5 @@ Dynamic → Static → Dynamic → Emergent Intelligence
 
 ---
 
-*program.md v1.4 | Principal Investigator: r4all | May 2026*
+*program.md v1.5 | Principal Investigator: r4all | June 2026*
 *This document governs the research. The research governs the system. The system is the proof.*
