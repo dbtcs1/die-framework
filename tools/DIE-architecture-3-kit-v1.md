@@ -1,4 +1,4 @@
-VERSION: v1.0 | June 2026
+VERSION: v1.1 | June 2026
 KIT TYPE: Architecture 3 (Layered Context) — Eager full-library preload
 STATUS: Open for use — cite source when deploying
 
@@ -10,6 +10,18 @@ v1.0 (2026-06-06, this commit):    Corrigendum. Component B refreshed from
                                    authoritative v1.4 (commit 1ff0af5).
                                    Kit structure unchanged; VERSION
                                    unchanged. See git log for full diff.
+v1.1 (2026-06-30, this commit):    Component B re-pinned program.md v1.4 -> v1.5.
+                                   §3 regularised: §3.0 namespace rule added
+                                   (M1/M2/M3 = memory layers only); the four
+                                   HARD conditions de-numbered and named
+                                   (VTP Anchoring; Memory-Type Separation +
+                                   Retrieval Standard; Semantic Baseline;
+                                   Values Governance); label M3a retired;
+                                   §3.1 M1-integrity open question added.
+                                   §3 descriptor (above) and provenance
+                                   stamps updated; Component A program.md
+                                   reference bumped to v1.5. Component B
+                                   pinned to commit 9063c3b.
 
 This is a single-paste mega-prompt for any AI agent stack
 (Claude, GPT, Gemini, local Llama or Qwen). It bundles the
@@ -29,19 +41,21 @@ USAGE
 
 CONTENTS OF THIS KIT (in order)
 -------------------------------
-Component A — DIE system prompt v1.2 (commit a24e383)
+Component A — DIE system prompt v1.3 (commit d7dba23)
               Protocols, chapter map, tone bounds, architecture
               note. The evaluation frame.
 
-Component B — program.md v1.4 (commit 1ff0af5, May 2026)
+Component B — program.md v1.5 (commit 9063c3b, June 2026)
               Framework governance. KEY SECTIONS:
               §1 Core Thesis (dimensional axiom, Pollan bridge,
               epistemological discipline);
               §2 Four Validation Conditions (C1-C4 + C1∧C2
               dependency structure);
-              §3 Memory Architecture (M1 VTP, M2 retrieval
-              standard, M3 semantic pre-training, M3a values
-              governance — all hard conditions);
+              §3 Memory Architecture (§3.0 namespace rule:
+              M1/M2/M3 = memory layers; HARD conditions named
+              — VTP Anchoring, Memory-Type Separation +
+              Retrieval Standard, Semantic Baseline, Values
+              Governance; + §3.1 M1-integrity open question);
               §5 Thesis Architecture (chapter map with status,
               Einstein test, AlphaFold playbook, P1-P5);
               §7a Failure Mode Register (FM1-FM6);
@@ -97,12 +111,12 @@ the time of any analysis.
 
 ======================================================================
 
-COMPONENT A — DIE SYSTEM PROMPT v1.2
+COMPONENT A — DIE SYSTEM PROMPT v1.3
 
 
 ======================================================================
 
-VERSION: v1.2 | June 2026
+VERSION: v1.3 | June 2026
 STATUS: Open for use — cite source when deploying
 
 This is a droppable system prompt layer for any AI agent
@@ -121,7 +135,7 @@ Preprint + provenance: <https://zenodo.org/records/20407711> (FINAL v4 — May 2
 ---
 
 
-# DIE FRAMEWORK — SYSTEM CONTEXT LAYER v1.2
+# DIE FRAMEWORK — SYSTEM CONTEXT LAYER v1.3
 
 # Dimensional Intelligence Expansion
 
@@ -321,7 +335,7 @@ If delta = 0 — the loop added no value. Investigate.
 
 PROVENANCE
 
-This system prompt is governed by program.md v1.4
+This system prompt is governed by program.md v1.5
 GitHub: github.com/dbtcs1/die-framework
 Zenodo DOI (v1): 10.5281/zenodo.19888889
 Zenodo DOI (v2 FINAL): 10.5281/zenodo.20407711
@@ -333,6 +347,14 @@ Other tokenizers (Claude, Gemini, Llama) will produce
 counts within roughly plus-or-minus 10% of this baseline.
 Operators preloading this prompt for Architecture 3
 deployments should budget context windows accordingly.
+
+v1.3 changes from v1.2:
+- program.md governance reference updated v1.4 -> v1.5
+  (namespace rule: M1/M2/M3 = memory layers; HARD
+  conditions named — VTP Anchoring, Memory-Type
+  Separation, Semantic Baseline, Values Governance;
+  M3a retired). Evaluation frame, protocols, chapter
+  map, and tone bounds unchanged.
 
 v1.2 changes from v1.1:
 - Added ARCHITECTURE NOTE (four installed-context modes)
@@ -348,7 +370,7 @@ Any derivative use must preserve this provenance block.
 
 ======================================================================
 
-COMPONENT B — program.md v1.4 (framework governance, key sections)
+COMPONENT B — program.md v1.5 (framework governance, key sections)
 
 
 ======================================================================
@@ -357,7 +379,7 @@ COMPONENT B — program.md v1.4 (framework governance, key sections)
 
 ## Research Strategy Document — Dimensional Intelligence Expansion (DIE)
 
-### Version 1.4 | May 2026
+### Version 1.5 | June 2026
 
 ### Controlled by: r4all (Principal Investigator)
 
@@ -432,9 +454,21 @@ C1 and C2 are Phase 1 primary claims. C3 and C4 build on C1/C2. Null results acr
 
 *These conditions are non-negotiable. Any implementation that violates them is not the methodology.*
 
-### Condition M1 — Episodic Snapshot Anchoring via Verifiable Temporal Provenance (HARD)
+### 3.0 Namespace rule (canonical)
 
-Every episodic snapshot (SS1, SS2...SSn) must be anchored on Base mainnet at the moment of creation as a **Verifiable Temporal Provenance (VTP)** record. VTP is the capacity to reconstruct the complete relational state of the system at any point in time, in a manner that is trustless, immutable, and auditable without central authority. An episodic record without a blockchain timestamp is not a valid snapshot — it is a log entry. The distinction is immutability and trustless verifiability, not storage format.
+**M-numbers name memory *layers*, never conditions.** There are exactly three, fixed:
+
+* **M1 — Procedural.** How-to knowledge / skills. Cross-snapshot; compounds SS1→SS2→SSn. The trunk.
+* **M2 — Episodic.** What-happened records. Snapshot-local; VTP-anchored; non-propagating. The leaf.
+* **M3 — Semantic.** Foundation-model world knowledge. Global, pre-deployment, not operator-controlled. The null-memory baseline.
+
+The **HARD conditions** below are *requirements on* those layers, and are referred to **by name, never by an M-number**. Values Governance is governance of the reduction function, not a memory layer, and carries **no** M-number.
+
+*Mnemonic: a layer is a noun (a kind of memory the agent has); a condition is an imperative (a rule the implementation must obey). They never share a label.*
+
+### Condition — VTP Anchoring of Episodic Snapshots (HARD) — acts on M2 (episodic)
+
+Every episodic (M2) snapshot (SS1, SS2...SSn) must be anchored on Base mainnet at the moment of creation as a **Verifiable Temporal Provenance (VTP)** record. VTP is the capacity to reconstruct the complete relational state of the system at any point in time, in a manner that is trustless, immutable, and auditable without central authority. An episodic record without a blockchain timestamp is not a valid snapshot — it is a log entry. The distinction is immutability and trustless verifiability, not storage format.
 
 **Why blockchain and not a database:**
 
@@ -444,36 +478,40 @@ Every episodic snapshot (SS1, SS2...SSn) must be anchored on Base mainnet at the
 
 A conventional database record is mutable, trust-dependent, and operator-controlled. None of these properties are adequate for academic validation of C1/C2, where a blind evaluator panel must independently confirm when a snapshot was created and what it contained.
 
-**C4 extension to M1:** At each SS1/SS2 snapshot boundary, the full tokenised context window of every active agent is cryptographically committed — a SHA-256 hash of the serialised context recorded on-chain as an AgentAction event (session_id, event_type, timestamp, data_hash) before any inter-agent synthesis occurs. This commitment is the leakage control for C4: it locks each agent's information state at the moment of snapshot, independent of later processing. Only the hash travels on-chain; bulk artefacts remain off-chain. Per-entry cost: fractions of a cent.
+**C4 extension (VTP Anchoring):** At each SS1/SS2 snapshot boundary, the full tokenised context window of every active agent is cryptographically committed — a SHA-256 hash of the serialised context recorded on-chain as an AgentAction event (session_id, event_type, timestamp, data_hash) before any inter-agent synthesis occurs. This commitment is the leakage control for C4: it locks each agent's information state at the moment of snapshot, independent of later processing. Only the hash travels on-chain; bulk artefacts remain off-chain. Per-entry cost: fractions of a cent.
 
-### Condition M2 — Memory Type Separation (HARD)
+### Condition — Memory-Type Separation (HARD) — separates M1 (procedural) and M2 (episodic)
 
 | Memory Type | Scope | Temporal Behaviour | Anchoring |
 | --- | --- | --- | --- |
-| **Episodic** | Snapshot-local | What happened at SSn — does not propagate forward | Immutable blockchain timestamp per snapshot |
-| **Procedural** | Cross-snapshot | How-to knowledge; compounds SS1→SS2→SSn | Relationship graph maintained across snapshot sequence |
+| **Episodic (M2)** | Snapshot-local | What happened at SSn — does not propagate forward | Immutable blockchain timestamp per snapshot |
+| **Procedural (M1)** | Cross-snapshot | How-to knowledge; compounds SS1→SS2→SSn | Relationship graph maintained across snapshot sequence |
 
 Procedural memory is the trunk of the tree. It does not reset at each snapshot — it accumulates forward. Episodic memory is the leaf at a given node. This distinction is the mechanical basis of the trunk-thickening claim in C1.
 
-**M2 Retrieval Standard — production-grade C2 (HARD):**
-Never load the full corpus into context. Embed all entries as vectors. Retrieve on semantic relevance at query time. The corpus grows arbitrarily; working memory stays bounded. This is the operative principle for controlled forgetting. Loading is the failure mode. Retrieval is the protocol. Any implementation that loads the full corpus into a context window is not complying with M2 — it is replicating the $75M amnesia architecture, not correcting it.
+**Retrieval Standard — production-grade C2 (HARD):**
+Never load the full corpus into context. Embed all entries as vectors. Retrieve on semantic relevance at query time. The corpus grows arbitrarily; working memory stays bounded. This is the operative principle for controlled forgetting. Loading is the failure mode. Retrieval is the protocol. Any implementation that loads the full corpus into a context window is not complying with the Memory-Type Separation condition — it is replicating the $75M amnesia architecture, not correcting it.
 
 **Ablation protocol:** Procedural-only ablation (preserve episodic, wipe procedural) and episodic-only ablation (preserve procedural, wipe episodic) are run as auxiliary conditions. The lattice claim predicts qualitatively different failure modes: procedural-only ablation forces re-derivation of established competence at each boundary; episodic-only ablation degrades temporally-bound retrieval while preserving accumulated capability. Indistinguishability is the publishable null result.
 
-### Condition M3 — Semantic Pre-Training Layer (HARD)
+### Condition — Semantic Baseline (HARD) — names M3 (semantic)
 
 | Memory Type | Scope | Temporal Behaviour | Source |
 | --- | --- | --- | --- |
-| **Semantic** | Global, pre-deployment | World knowledge; does not update at runtime | Foundation model pre-training |
+| **Semantic (M3)** | Global, pre-deployment | World knowledge; does not update at runtime | Foundation model pre-training |
 
 M3 is the knowledge substrate the agent arrives with before any episodic accumulation begins. It is not the mesh's contribution — it is the foundation model's. The mesh operates above M3; it does not replace it. M3 is the baseline the null-memory comparator uses. The DIE claim is about what M1 + M2 add on top of M3, not about M3 itself.
 
 **Neuroscience grounding — convergent external validation (2026-05-01):**
-Hassabis [2026], whose PhD was on hippocampal memory consolidation, independently identifies the same three-layer structure as the missing capability in current AI systems: procedural knowledge (M1 — skills encoded in how-to patterns), episodic consolidation (M2 — REM-sleep replay separating signal from noise), and semantic pre-training (M3 — world knowledge acquired before deployment). His characterisation of current AI memory as "duct tape — shove it all in the context window" is a precise field-level description of the C2 failure condition. The M1/M2/M3 conditions were derived from organisational coordination theory; Hassabis arrives at the identical architecture from cognitive neuroscience. The convergence is structural, not coincidental. This constitutes independent external validation of the memory architecture hard conditions. Recorded in Amendment Log: 2026-05-01.
+Hassabis [2026], whose PhD was on hippocampal memory consolidation, independently identifies the same three-layer structure as the missing capability in current AI systems: procedural knowledge (M1 — skills encoded in how-to patterns), episodic consolidation (M2 — REM-sleep replay separating signal from noise), and semantic pre-training (M3 — world knowledge acquired before deployment). His characterisation of current AI memory as "duct tape — shove it all in the context window" is a precise field-level description of the C2 failure condition. The M1/M2/M3 memory layers were derived from organisational coordination theory; Hassabis arrives at the identical architecture from cognitive neuroscience. The convergence is structural, not coincidental. This constitutes independent external validation of the memory architecture hard conditions. Recorded in Amendment Log: 2026-05-01.
 
-### Condition M3a — Values Governance via program.md (HARD)
+### Condition — Values Governance (program.md) (HARD) — governs the reduction function (no M-number)
 
 program.md functions as a structural constraint on the reduction function — not a record of past outputs, but a bound on the mapping from full mesh state to any individual agent's observable behaviour. Agent output drift rate must stay within program.md thresholds as the mesh grows under adversarial prompting. This is what C3 measures.
+
+### 3.1 Open question — M1 (procedural) integrity (raised 2026-06-26, KIV)
+
+M2 (episodic) carries a HARD on-chain VTP anchor (VTP Anchoring condition). M1 (procedural) currently has **no equivalent integrity condition** — its anchoring is "relationship graph maintained across the snapshot sequence," off-chain by default. Open question: is graph-continuity plus the Retrieval Standard sufficient for M1 integrity, or does the procedural trunk need its own hardening (e.g. periodic graph-state commitment, an analogue of the VTP anchor)? Deferred — this is an architecture decision, not a documentation fix. Provisional design: M1 integrity is currently *assumed, not conditioned*. Revisit post-Chapter 5; tracked against C1 (accumulation) and FM1 (memory state loss). Recorded in Amendment Log: 2026-06-26.
 
 
 ---
@@ -600,7 +638,7 @@ Five commitments governing the Phase 2 trunk/forest/ring architecture implementa
 
 ---
 
-*program.md v1.4 | Principal Investigator: r4all | May 2026*
+*program.md v1.5 | Principal Investigator: r4all | June 2026*
 
 *This document governs the research. The research governs the system. The system is the proof.*
 
@@ -1031,12 +1069,12 @@ Future versions will be tracked at the same path with commit-hash provenance.
 
 ---
 
-PROVENANCE — DIE Architecture 3 Kit v1.0
+PROVENANCE — DIE Architecture 3 Kit v1.1
 
 Component hashes (immutable references):
 
-  System prompt v1.2:        a24e383
-  program.md v1.4:           1ff0af5
+  System prompt v1.3:        d7dba23
+  program.md v1.5:           9063c3b
   Preprint v4 FINAL:         Zenodo DOI 10.5281/zenodo.20407711
                              (md5: f0dc8f7c3500d1ffa2db8e7c263fa24f)
   User-prompt template v1.0: 41c4a4e
