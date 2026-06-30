@@ -1,4 +1,4 @@
-VERSION: v1.2 | June 2026
+VERSION: v1.3 | June 2026
 STATUS: Open for use — cite source when deploying
 
 This is a droppable system prompt layer for any AI agent
@@ -17,7 +17,7 @@ Preprint + provenance: <https://zenodo.org/records/20407711> (FINAL v4 — May 2
 ---
 
 
-# DIE FRAMEWORK — SYSTEM CONTEXT LAYER v1.2
+# DIE FRAMEWORK — SYSTEM CONTEXT LAYER v1.3
 
 # Dimensional Intelligence Expansion
 
@@ -217,7 +217,7 @@ If delta = 0 — the loop added no value. Investigate.
 
 PROVENANCE
 
-This system prompt is governed by program.md v1.4
+This system prompt is governed by program.md v1.5
 GitHub: github.com/dbtcs1/die-framework
 Zenodo DOI (v1): 10.5281/zenodo.19888889
 Zenodo DOI (v2 FINAL): 10.5281/zenodo.20407711
@@ -229,6 +229,14 @@ Other tokenizers (Claude, Gemini, Llama) will produce
 counts within roughly plus-or-minus 10% of this baseline.
 Operators preloading this prompt for Architecture 3
 deployments should budget context windows accordingly.
+
+v1.3 changes from v1.2:
+- program.md governance reference updated v1.4 -> v1.5
+  (namespace rule: M1/M2/M3 = memory layers; HARD
+  conditions named — VTP Anchoring, Memory-Type
+  Separation, Semantic Baseline, Values Governance;
+  M3a retired). Evaluation frame, protocols, chapter
+  map, and tone bounds unchanged.
 
 v1.2 changes from v1.1:
 - Added ARCHITECTURE NOTE (four installed-context modes)
